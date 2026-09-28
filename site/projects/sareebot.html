@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SareeBot AI | Baskar R</title>
+  <meta name="description" content="SareeBot AI by Baskar R: a real-time wholesale saree phone-sales pipeline connecting voice interactions with inventory, orders and human escalation.">
+  <meta property="og:title" content="SareeBot AI | Baskar R">
+  <meta property="og:description" content="Connecting real-time voice conversations with wholesale saree sales tools and operational workflows.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#f6f5ef">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <script src="../assets/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header shell">
+    <a class="brand" href="../index.html" aria-label="Baskar R home"><span class="brand-mark" aria-hidden="true">b.</span>Baskar R</a>
+    <nav aria-label="Main navigation">
+      <a href="../index.html#work">All work</a>
+      <a href="../resume.html">Resume</a>
+      <a href="mailto:baskargceo@gmail.com">Contact</a>
+    </nav>
+  </header>
+  <main id="main" class="case-page shell">
+    <a class="back-link" href="../index.html#work">Back to all work</a>
+    <header class="case-hero">
+      <p class="eyebrow">Voice AI / Applied AI engineering</p>
+      <h1>SareeBot AI</h1>
+      <p class="lead">A real-time phone-sales pipeline that connects wholesale saree conversations with the tools needed to move an order forward.</p>
+      <dl class="case-facts">
+        <div><dt>Domain</dt><dd>Wholesale saree sales</dd></div>
+        <div><dt>Focus</dt><dd>Voice and tool orchestration</dd></div>
+        <div><dt>Core stack</dt><dd>Azure OpenAI GPT-Realtime, FastAPI, FreeSWITCH</dd></div>
+      </dl>
+    </header>
+    <figure class="case-preview voice-preview">
+      <picture><source media="(max-width: 600px)" srcset="../assets/voice-workflow-mobile.svg" width="342" height="215"><img src="../assets/voice-workflow.svg" width="664" height="356" alt="Illustrated voice commerce flow from a customer conversation to inventory checks, order placement, and payment links."></picture>
+      <figcaption>Architecture/workflow illustration, not a live product screenshot.</figcaption>
+    </figure>
+    <div class="case-content">
+      <article aria-label="SareeBot AI case study">
+        <section>
+          <h2>The problem</h2>
+          <p>A wholesale sales call involves more than answering questions. A conversation can require customer verification, inventory lookup, product sharing, order creation and payment follow-up. The engineering task was to connect those steps to a voice interface while retaining a path to a human.</p>
+        </section>
+        <section>
+          <h2>My contribution</h2>
+          <p>I built the real-time phone-sales pipeline and its business integrations, including function calling for inventory, orders and customer verification, WhatsApp product sharing, Razorpay payment links, tracking, and human escalation.</p>
+          <p>The surrounding application included a dashboard, analytics, CRM and inventory workflows.</p>
+        </section>
+        <section>
+          <h2>Engineering choices</h2>
+          <p>The stack combines Azure OpenAI GPT-Realtime, FastAPI, FreeSWITCH, WebRTC, voice activity detection, Whisper and SQLite. The speech layer supports the conversation; function-calling tools connect the agent to inventory, orders, and customer data.</p>
+          <ul>
+            <li>Function calling provides an explicit interface for inventory, customer and order operations.</li>
+            <li>WhatsApp supports visual product sharing alongside a phone conversation.</li>
+            <li>Razorpay links provide a separate payment step rather than collecting payment details in speech.</li>
+            <li>Human escalation is part of the workflow when a conversation needs staff involvement.</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Proposed next step</h2>
+          <p>Review scenarios involving interrupted calls, unavailable inventory and escalation, with explicit checks before order-changing actions.</p>
+        </section>
+      </article>
+      <aside class="case-aside" aria-label="Project links and skills">
+        <h2>Project link</h2>
+        <p><a href="https://teleautomation.me">Related product: TeleAutomation</a></p>
+        <h2>Skills in focus</h2>
+        <ul>
+          <li>Real-time voice interfaces</li>
+          <li>FastAPI and function calling</li>
+          <li>Telephony and WebRTC</li>
+          <li>Sales workflow integration</li>
+        </ul>
+      </aside>
+    </div>
+    <nav class="case-next" aria-label="Next project">
+      <a href="omnichannel-rag.html">Next project: Omnichannel RAG</a>
+    </nav>
+  </main>
+  <footer class="site-footer shell">
+    <p>Baskar R / Applied AI Engineer</p>
+    <a href="https://github.com/Baskar-forever">GitHub</a>
+    <a href="https://www.linkedin.com/in/baskar-g-ceo/">LinkedIn</a>
+    <a href="mailto:baskargceo@gmail.com">Email</a>
+  </footer>
+</body>
+</html>

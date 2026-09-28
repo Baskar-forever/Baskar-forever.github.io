@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Omnichannel RAG | Baskar R</title>
+  <meta name="description" content="Baskar R's Omnichannel RAG case study: the documented public repository architecture for hybrid retrieval, source attribution and website and WhatsApp conversations.">
+  <meta property="og:title" content="Omnichannel RAG | Baskar R">
+  <meta property="og:description" content="A documented retrieval architecture combining dense and keyword search, reranking and persistent conversations across website and WhatsApp channels.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#f6f5ef">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <script src="../assets/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header shell">
+    <a class="brand" href="../index.html" aria-label="Baskar R home"><span class="brand-mark" aria-hidden="true">b.</span>Baskar R</a>
+    <nav aria-label="Main navigation">
+      <a href="../index.html#work">All work</a>
+      <a href="../resume.html">Resume</a>
+      <a href="mailto:baskargceo@gmail.com">Contact</a>
+    </nav>
+  </header>
+  <main id="main" class="case-page shell">
+    <a class="back-link" href="../index.html#work">Back to all work</a>
+    <header class="case-hero">
+      <p class="eyebrow">Retrieval systems / Applied AI engineering</p>
+      <h1>Omnichannel RAG</h1>
+      <p class="lead">A retrieval-backed chatbot connecting website and WhatsApp conversations to source material, with a shared backend and persistent sessions.</p>
+      <dl class="case-facts">
+        <div><dt>Channels</dt><dd>Website and WhatsApp</dd></div>
+        <div><dt>Focus</dt><dd>Hybrid retrieval and source attribution</dd></div>
+        <div><dt>Version</dt><dd>Documented public repository</dd></div>
+      </dl>
+    </header>
+    <figure class="case-preview retrieval-preview">
+      <picture><source media="(max-width: 600px)" srcset="../assets/retrieval-workflow-mobile.svg" width="342" height="200"><img src="../assets/retrieval-workflow.svg" width="664" height="356" alt="Hybrid retrieval illustration: dense search and BM25 results combine through rank fusion, followed by reranking."></picture>
+      <figcaption>Architecture/workflow illustration, not a live product screenshot.</figcaption>
+    </figure>
+    <div class="case-content">
+      <article aria-label="Omnichannel RAG case study">
+        <section>
+          <h2>The problem</h2>
+          <p>Questions do not always use the same wording as the documents that answer them. A retrieval-backed assistant also needs to preserve conversation context and show where an answer came from, whether the question arrives through a website or WhatsApp.</p>
+        </section>
+        <section>
+          <h2>My contribution</h2>
+          <p>I built an omnichannel RAG chatbot with website and WhatsApp interfaces. The public repository version uses FastAPI, Qdrant, BGE embeddings, Llama 3.2 and PostgreSQL.</p>
+          <p>Its retrieval pipeline combines dense and BM25 search, reciprocal rank fusion and cross-encoder reranking, alongside deduplication, source attribution and session persistence.</p>
+        </section>
+        <section>
+          <h2>Engineering choices</h2>
+          <p>The retrieval design separates finding candidates from choosing context. Dense search can match semantic relationships; BM25 can preserve exact terms. Reciprocal rank fusion combines their ranked results without requiring the two search methods to share a score scale.</p>
+          <p>A cross-encoder then scores query-document pairs to refine the candidate ordering. The design prioritizes recall first, precision second: gather plausible evidence, then narrow it before generation.</p>
+          <ul>
+            <li>WhatsApp message deduplication prevents repeated responses when a webhook is retried.</li>
+            <li>Source attribution connects generated answers to supporting material for review.</li>
+            <li>PostgreSQL-backed session persistence stores conversational context beyond an individual request.</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Proposed next step</h2>
+          <p>Build an evaluation set covering exact-term queries, paraphrases and unanswerable questions. Compare retrieval stages and check whether cited sources support each answer.</p>
+        </section>
+      </article>
+      <aside class="case-aside" aria-label="Project links and skills">
+        <h2>Explore the code</h2>
+        <p><a href="https://github.com/Baskar-forever/omnichannel-rag-chatbot">Public GitHub repository</a></p>
+        <h2>Skills in focus</h2>
+        <ul>
+          <li>Qdrant and BGE embeddings</li>
+          <li>BM25, RRF and reranking</li>
+          <li>Llama 3.2 and FastAPI</li>
+          <li>PostgreSQL session storage</li>
+        </ul>
+      </aside>
+    </div>
+    <nav class="case-next" aria-label="Next project">
+      <a href="resumeai.html">Next project: ResumeAI</a>
+    </nav>
+  </main>
+  <footer class="site-footer shell">
+    <p>Baskar R / Applied AI Engineer</p>
+    <a href="https://github.com/Baskar-forever">GitHub</a>
+    <a href="https://www.linkedin.com/in/baskar-g-ceo/">LinkedIn</a>
+    <a href="mailto:baskargceo@gmail.com">Email</a>
+  </footer>
+</body>
+</html>

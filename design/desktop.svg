@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="2630" viewBox="0 0 1440 2630" role="img" aria-labelledby="title desc">
+  <title id="title">Baskar R portfolio: desktop design proposal</title>
+  <desc id="desc">Light editorial portfolio with teal accents, an engineering diagram, three dark illustrative project previews, experience, and contact information. This is a static design mockup, not a functioning website.</desc>
+  <defs>
+    <style>
+      text { font-family: 'Segoe UI', Arial, sans-serif; fill: #202925; }
+      .mono { font-family: Consolas, monospace; font-size: 12px; letter-spacing: 1.2px; }
+      .muted { fill: #64716a; }
+      .teal { fill: #146b58; }
+      .light { fill: #f4f5ef; }
+      .dim { fill: #a5bcb1; }
+      .body { font-size: 17px; }
+      .small { font-size: 14px; }
+      .line { stroke: #d9ded5; stroke-width: 1; }
+      .darkline { stroke: #3e574b; stroke-width: 1; }
+    </style>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#3c5448"/></pattern>
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7" fill="none" stroke="#86a699"/></marker>
+  </defs>
+  <rect width="1440" height="2630" fill="#f6f5ef"/>
+  <rect x="64" y="31" width="36" height="36" rx="9" fill="#146b58"/>
+  <text x="73" y="56" font-size="21" font-weight="600" class="light">b.</text>
+  <text x="113" y="56" font-size="17" font-weight="600">Baskar R</text>
+  <text x="900" y="55" class="small">Work</text>
+  <text x="979" y="55" class="small">Experience</text>
+  <text x="1100" y="55" class="small">About</text>
+  <rect x="1200" y="30" width="176" height="39" rx="5" fill="none" stroke="#cbd3c9"/>
+  <text x="1221" y="55" class="small">Resume</text><path d="M1338 42 v15 m-5 -5 5 5 5 -5 m-12 10 h14" fill="none" stroke="#202925" stroke-width="1.4"/>
+  <path d="M64 94 H1376" class="line"/>
+
+  <text x="96" y="172" class="mono teal">APPLIED AI ENGINEER / SALEM, INDIA</text>
+  <text x="91" y="266" font-size="72" font-weight="600" letter-spacing="-3">AI that works</text>
+  <text x="91" y="345" font-size="72" font-weight="600" letter-spacing="-3">beyond the</text>
+  <text x="91" y="424" font-size="72" font-weight="600" letter-spacing="-3" class="teal">conversation.</text>
+  <text x="96" y="479" font-size="19" class="muted">I'm Baskar. I build AI systems that retrieve, reason,</text>
+  <text x="96" y="509" font-size="19" class="muted">and take action, from RAG to real-time voice agents.</text>
+  <rect x="96" y="548" width="188" height="52" rx="5" fill="#146b58"/>
+  <text x="119" y="581" font-size="15" font-weight="600" class="light">Explore my work</text>
+  <path d="M252 570 v12 m-5 -5 5 5 5 -5" stroke="#f4f5ef" fill="none" stroke-width="1.4"/>
+  <text x="310" y="581" font-size="15">Get in touch</text><path d="M405 577 h13 m-5 -5 5 5 -5 5" fill="none" stroke="#202925" stroke-width="1.4"/>
+  <text x="96" y="640" class="mono muted">PYTHON / FASTAPI / RAG / VOICE AI</text>
+
+  <rect x="858" y="169" width="486" height="463" rx="9" fill="#eaece3"/>
+  <text x="887" y="206" class="mono muted">FROM A QUESTION TO AN OUTCOME</text>
+  <text x="1314" y="206" class="mono muted" text-anchor="end">01</text>
+  <path d="M888 226 H1314" stroke="#d0d7ca"/>
+  <path d="M947 285 V340 H978 M1101 385 V426 M1101 474 V509" stroke="#86a699" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/>
+  <rect x="888" y="250" width="167" height="53" rx="5" fill="#f6f5ef" stroke="#cbd3c9"/>
+  <text x="908" y="283" font-size="15">A customer's question</text>
+  <rect x="978" y="322" width="237" height="63" rx="5" fill="#146b58"/>
+  <text x="1000" y="348" class="mono light">01 / RETRIEVE</text>
+  <text x="1000" y="372" font-size="14" class="light">Ground answers in knowledge</text>
+  <rect x="978" y="409" width="237" height="65" rx="5" fill="#fffef9" stroke="#cbd3c9"/>
+  <text x="1000" y="435" class="mono teal">02 / REASON</text>
+  <text x="1000" y="459" font-size="14">Choose the right tool</text>
+  <rect x="978" y="498" width="237" height="65" rx="5" fill="#fffef9" stroke="#cbd3c9"/>
+  <text x="1000" y="524" class="mono teal">03 / ACT</text>
+  <text x="1000" y="548" font-size="14">Turn intent into a workflow</text>
+  <text x="887" y="605" class="mono muted">APPLIED INTELLIGENCE. PRACTICAL SYSTEMS.</text>
+
+  <path d="M96 698 H1344" class="line"/>
+  <text x="96" y="733" class="mono muted">BUILT ACROSS</text>
+  <text x="330" y="733" font-size="16">Conversational AI</text>
+  <text x="640" y="733" font-size="16">Knowledge &amp; retrieval</text>
+  <text x="998" y="733" font-size="16">Agentic automation</text>
+  <path d="M96 758 H1344" class="line"/>
+
+  <text x="96" y="827" class="mono teal">01 / SELECTED WORK</text>
+  <text x="94" y="885" font-size="42" font-weight="600" letter-spacing="-1.3">Less theory. More working systems.</text>
+  <text x="96" y="922" class="body muted">A closer look at the problems, the architecture, and what I built.</text>
+
+  <rect x="96" y="960" width="1248" height="356" rx="8" fill="#fffef9" stroke="#d9ded5"/>
+  <text x="128" y="1006" class="mono muted">01 / REAL-TIME VOICE COMMERCE</text>
+  <text x="128" y="1060" font-size="32" font-weight="600" letter-spacing="-.7">SareeBot AI</text>
+  <text x="128" y="1099" class="body muted">From a phone call to an order.</text>
+  <text x="128" y="1127" class="body muted">Voice agents connected to inventory,</text>
+  <text x="128" y="1155" class="body muted">WhatsApp, and payment workflows.</text>
+  <text x="128" y="1208" class="mono teal">AZURE OPENAI / FASTAPI / FREESWITCH</text>
+  <path d="M128 1233 H620" class="line"/>
+  <text x="128" y="1276" font-size="15" font-weight="600">Explore the case study</text><path d="M311 1271 h15 m-5 -5 5 5 -5 5" fill="none" stroke="#202925" stroke-width="1.4"/>
+  <path d="M680 960 H1336 Q1344 960 1344 968 V1308 Q1344 1316 1336 1316 H680 Z" fill="#183c30"/>
+  <rect x="680" y="960" width="664" height="356" fill="url(#grid)"/>
+  <text x="715" y="1000" class="mono dim">VOICE TO ACTION</text>
+  <text x="1310" y="1000" class="mono dim" text-anchor="end">WORKFLOW ILLUSTRATION</text>
+  <rect x="715" y="1042" width="280" height="163" rx="7" fill="#244b3b" stroke="#527060"/>
+  <circle cx="747" cy="1075" r="5" fill="#c1dd9e"/><text x="763" y="1080" font-size="14" class="light">Customer conversation</text>
+  <path d="M740 1130 h5 m5 -9 v18 m8 -26 v34 m8 -20 v8 m8 -34 v58 m8 -49 v40 m8 -33 v26 m8 -43 v59 m8 -51 v43 m8 -31 v20 m8 -40 v59 m8 -50 v40 m8 -29 v20 m8 -21 v22 m8 -36 v51 m8 -44 v34 m8 -25 v18 m8 -13 v8 m8 -25 v41 m8 -31 v22 m8 -14 v8 m8 -5 h6" fill="none" stroke="#c1dd9e" stroke-width="3" stroke-linecap="round"/>
+  <text x="738" y="1183" class="mono dim">SPEECH / CONTEXT / TOOL-CALLING</text>
+  <path d="M995 1123 H1031" fill="none" stroke="#86a699" marker-end="url(#arrow)"/>
+  <rect x="1044" y="1042" width="263" height="46" rx="5" fill="#224534" stroke="#527060"/><text x="1062" y="1071" font-size="14" class="light">01   Check inventory</text>
+  <path d="M1175 1088 V1105" class="darkline"/>
+  <rect x="1044" y="1105" width="263" height="46" rx="5" fill="#224534" stroke="#527060"/><text x="1062" y="1134" font-size="14" class="light">02   Place an order</text>
+  <path d="M1175 1151 V1169" class="darkline"/>
+  <rect x="1044" y="1169" width="263" height="46" rx="5" fill="#c1dd9e"/><text x="1062" y="1198" font-size="14">03   Share payment link</text>
+  <path d="M715 1249 H1307" class="darkline"/>
+  <text x="715" y="1284" font-size="13" class="dim">Real conversations. Connected business tools.</text>
+
+  <rect x="96" y="1340" width="612" height="439" rx="8" fill="#fffef9" stroke="#d9ded5"/>
+  <path d="M104 1340 H700 Q708 1340 708 1348 V1565 H96 V1348 Q96 1340 104 1340" fill="#182b2d"/>
+  <text x="124" y="1374" class="mono dim">RETRIEVAL ARCHITECTURE / ILLUSTRATION</text>
+  <rect x="124" y="1404" width="120" height="38" rx="4" fill="#294347" stroke="#557275"/><text x="184" y="1428" font-size="13" class="light" text-anchor="middle">Dense search</text>
+  <rect x="124" y="1470" width="120" height="38" rx="4" fill="#294347" stroke="#557275"/><text x="184" y="1494" font-size="13" class="light" text-anchor="middle">BM25</text>
+  <path d="M244 1423 H270 V1456 H300 M244 1489 H270 V1456" fill="none" stroke="#86a699"/>
+  <rect x="300" y="1437" width="80" height="38" rx="4" fill="#294347" stroke="#557275"/><text x="340" y="1461" font-size="13" class="light" text-anchor="middle">RRF</text>
+  <path d="M380 1456 H411 M515 1456 H547" stroke="#86a699" marker-end="url(#arrow)"/>
+  <rect x="418" y="1437" width="97" height="38" rx="4" fill="#294347" stroke="#557275"/><text x="466" y="1461" font-size="13" class="light" text-anchor="middle">Rerank</text>
+  <rect x="553" y="1437" width="127" height="38" rx="4" fill="#cee0ce"/><text x="616" y="1461" font-size="13" text-anchor="middle">Grounded reply</text>
+  <text x="124" y="1540" font-size="13" class="dim">One knowledge base. Website + WhatsApp.</text>
+  <text x="124" y="1602" class="mono muted">02 / KNOWLEDGE SYSTEMS</text>
+  <text x="124" y="1645" font-size="27" font-weight="600" letter-spacing="-.6">Omnichannel RAG</text>
+  <text x="124" y="1679" class="body muted">Find the right context. Across channels.</text>
+  <text x="124" y="1714" class="mono teal">HYBRID SEARCH / RERANKING / FASTAPI</text>
+  <text x="124" y="1752" font-size="14" font-weight="600">Read case study</text><path d="M257 1747 h14 m-5 -5 5 5 -5 5" fill="none" stroke="#202925"/>
+  <text x="629" y="1752" font-size="14" class="muted">GitHub</text>
+
+  <rect x="732" y="1340" width="612" height="439" rx="8" fill="#fffef9" stroke="#d9ded5"/>
+  <path d="M740 1340 H1336 Q1344 1340 1344 1348 V1565 H732 V1348 Q732 1340 740 1340" fill="#30352e"/>
+  <text x="760" y="1374" class="mono dim">DOCUMENT WORKFLOW / ILLUSTRATION</text>
+  <rect x="776" y="1399" width="138" height="134" rx="4" fill="#dedfd3"/>
+  <text x="791" y="1423" font-size="10" font-weight="600">MASTER RESUME</text>
+  <path d="M791 1437 H895 M791 1450 H879 M791 1463 H895 M791 1482 H895 M791 1495 H879 M791 1508 H865" stroke="#a5ada0" stroke-width="3"/>
+  <path d="M932 1462 H970 M1100 1462 H1140" stroke="#86a699" marker-end="url(#arrow)"/>
+  <rect x="979" y="1434" width="120" height="55" rx="5" fill="#4b5344" stroke="#6d7a62"/>
+  <text x="1039" y="1456" font-size="12" class="light" text-anchor="middle">Job description</text>
+  <text x="1039" y="1475" font-size="12" class="light" text-anchor="middle">+ AI tailoring</text>
+  <rect x="1153" y="1399" width="138" height="134" rx="4" fill="#f4f1df"/>
+  <text x="1168" y="1423" font-size="10" font-weight="600">TAILORED RESUME</text>
+  <path d="M1168 1437 H1272 M1168 1450 H1256 M1168 1463 H1272 M1168 1482 H1272 M1168 1495 H1256 M1168 1508 H1242" stroke="#b0b899" stroke-width="3"/>
+  <path d="M1168 1450 H1256 M1168 1495 H1256" stroke="#377e65" stroke-width="3"/>
+  <text x="760" y="1602" class="mono muted">03 / DOCUMENT INTELLIGENCE</text>
+  <text x="760" y="1645" font-size="27" font-weight="600" letter-spacing="-.6">ResumeAI</text>
+  <text x="760" y="1679" class="body muted">A better fit, without inventing experience.</text>
+  <text x="760" y="1714" class="mono teal">GPT-4 VISION / PDF PROCESSING / PLAYWRIGHT</text>
+  <text x="760" y="1752" font-size="14" font-weight="600">Read case study</text><path d="M893 1747 h14 m-5 -5 5 5 -5 5" fill="none" stroke="#202925"/>
+  <text x="1236" y="1752" font-size="14" class="muted">Visit product</text>
+
+  <text x="96" y="1831" class="mono muted">ALSO BUILT</text>
+  <text x="249" y="1831" font-size="15">PDF Table Extractor</text><text x="447" y="1831" class="small muted">/ Open source</text>
+  <text x="749" y="1831" font-size="15">Multi-agent SEO publisher</text><text x="996" y="1831" class="small muted">/ Research to WordPress</text>
+  <path d="M96 1863 H1344" class="line"/>
+
+  <text x="96" y="1934" class="mono teal">02 / EXPERIENCE</text>
+  <text x="94" y="1988" font-size="38" font-weight="600" letter-spacing="-1">Built with purpose.</text>
+  <text x="96" y="2021" class="body muted">From client needs to working software.</text>
+  <text x="650" y="1934" class="mono muted">APR 2025 - PRESENT</text>
+  <text x="650" y="1969" font-size="22" font-weight="600">Freelance AI Engineer</text>
+  <text x="650" y="1999" font-size="16" class="muted">RAG assistants, agentic publishing, and AI products.</text>
+  <path d="M650 2027 H1344" class="line"/>
+  <text x="650" y="2060" class="mono muted">AUG 2023 - MAR 2025</text>
+  <text x="650" y="2095" font-size="22" font-weight="600">AI/ML Intern <tspan font-weight="400" class="muted">/ Adople AI</tspan></text>
+  <text x="650" y="2125" font-size="16" class="muted">Multi-agent RAG, Text2SQL, and resume screening systems.</text>
+  <path d="M96 2170 H1344" class="line"/>
+
+  <text x="96" y="2225" class="mono teal">03 / A LITTLE ABOUT ME</text>
+  <text x="96" y="2265" font-size="21" font-weight="500">I like making complex systems useful.</text>
+  <text x="96" y="2297" font-size="16" class="muted">Based in Salem, India. Focused on applied AI, backend</text>
+  <text x="96" y="2323" font-size="16" class="muted">engineering, and the details that connect them.</text>
+  <text x="811" y="2225" class="mono muted">EDUCATION &amp; RECOGNITION</text>
+  <text x="811" y="2265" font-size="17" font-weight="600">B.Sc. Computer Science / 2023 - 2026</text>
+  <text x="811" y="2295" font-size="15" class="muted">Government Arts College (Autonomous), Salem</text>
+  <text x="811" y="2323" font-size="15" class="teal">First Prize / Intercollegiate Python Programming</text>
+
+  <rect x="64" y="2375" width="1312" height="186" rx="8" fill="#e8eddf"/>
+  <text x="96" y="2419" class="mono teal">HAVE AN AI ENGINEERING ROLE IN MIND?</text>
+  <text x="93" y="2481" font-size="46" font-weight="600" letter-spacing="-1.5">Let's build something useful.</text>
+  <text x="96" y="2520" font-size="17" class="muted">Applied AI. Solid engineering. Real-world problems.</text>
+  <rect x="1015" y="2440" width="295" height="54" rx="5" fill="#146b58"/>
+  <text x="1037" y="2474" font-size="16" font-weight="500" class="light">baskargceo@gmail.com</text><path d="M1270 2471 l10 -10 m-10 0 h10 v10" fill="none" stroke="#f4f5ef" stroke-width="1.5"/>
+  <text x="96" y="2600" class="small muted">Baskar R / Applied AI Engineer</text>
+  <text x="1113" y="2600" class="small">GitHub</text><text x="1196" y="2600" class="small">LinkedIn</text><text x="1290" y="2600" class="small">Resume</text>
+</svg>

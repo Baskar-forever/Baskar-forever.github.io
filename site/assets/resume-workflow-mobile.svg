@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="342" height="200" viewBox="0 0 342 200" role="img" aria-labelledby="title">
+  <title id="title">Document workflow illustration: a master resume is tailored using AI</title>
+  <rect width="342" height="200" fill="#30352e"/>
+  <text x="20" y="29" font-family="Consolas, monospace" font-size="10" fill="#cbd1bd">DOCUMENT WORKFLOW / ILLUSTRATION</text>
+  <rect x="29" y="52" width="113" height="125" rx="4" fill="#dedfd3"/>
+  <rect x="200" y="52" width="113" height="125" rx="4" fill="#f4f1df"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#202925"><text x="40" y="74">MASTER RESUME</text><text x="211" y="74">TAILORED RESUME</text></g>
+  <path d="M40 91h91m-91 15h78m-78 15h91m-91 21h91m-91 15h78" stroke="#8a9789" stroke-width="2.5"/>
+  <path d="M211 91h91m-91 15h78m-78 15h91m-91 21h91m-91 15h78" stroke="#a2ac8e" stroke-width="2.5"/>
+  <path d="M211 106h78m-78 51h78" stroke="#377e65" stroke-width="2.5"/>
+  <path d="M156 113h29m-6-6 6 6-6 6" stroke="#afbea5" fill="none" stroke-width="1.4"/>
+  <text x="163" y="139" font-family="Consolas, monospace" font-size="11" fill="#cbd1bd">AI</text>
+</svg>

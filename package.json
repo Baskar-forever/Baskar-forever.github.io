@@ -1,0 +1,15 @@
+{
+  "name": "baskar-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Baskar R's static Applied AI engineering portfolio",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
+    "@playwright/test": "1.63.0"
+  }
+}

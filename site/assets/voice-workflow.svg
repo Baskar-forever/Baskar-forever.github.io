@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="664" height="356" viewBox="0 0 664 356" role="img" aria-labelledby="title desc">
+  <title id="title">Voice commerce workflow illustration</title><desc id="desc">A customer conversation connects to inventory checks, order placement, and payment links.</desc>
+  <defs><pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#3d594b"/></pattern></defs>
+  <rect width="664" height="356" fill="#183c30"/><rect width="664" height="356" fill="url(#dots)"/>
+  <g font-family="Consolas, monospace" font-size="11" letter-spacing="1" fill="#bed0c4"><text x="35" y="39">VOICE TO ACTION</text><text x="629" y="39" text-anchor="end">WORKFLOW ILLUSTRATION</text></g>
+  <rect x="35" y="82" width="280" height="163" rx="7" fill="#244b3b" stroke="#64826e"/>
+  <circle cx="66" cy="115" r="5" fill="#c1dd9e"/>
+  <text x="83" y="120" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#f4f5ef">Customer conversation</text>
+  <path d="M60 171h5m6-9v18m8-26v34m8-20v8m8-34v58m8-49v40m8-33v26m8-43v59m8-51v43m8-31v20m8-40v59m8-50v40m8-29v20m8-21v22m8-36v51m8-44v34m8-25v18m8-13v8m8-25v41m8-31v22m8-14v8m8-5h6" fill="none" stroke="#c1dd9e" stroke-width="3" stroke-linecap="round"/>
+  <text x="58" y="223" font-family="Consolas, monospace" font-size="11" letter-spacing=".65" fill="#bed0c4">SPEECH / CONTEXT / TOOL-CALLING</text>
+  <path d="M315 165h35m-6-5 6 5-6 5" fill="none" stroke="#9cbaaa"/>
+  <rect x="364" y="82" width="265" height="46" rx="5" fill="#224534" stroke="#64826e"/>
+  <path d="M496 128v17m0 46v18" stroke="#7b9e89"/>
+  <rect x="364" y="145" width="265" height="46" rx="5" fill="#224534" stroke="#64826e"/>
+  <rect x="364" y="209" width="265" height="46" rx="5" fill="#c1dd9e"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="14"><text x="382" y="111" fill="#f4f5ef">01   Check inventory</text><text x="382" y="174" fill="#f4f5ef">02   Place an order</text><text x="382" y="238" fill="#202925">03   Share payment link</text></g>
+  <path d="M35 289h594" stroke="#52705e"/>
+  <text x="35" y="324" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#bed0c4">Real conversations. Connected business tools.</text>
+</svg>

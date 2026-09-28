@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="664" height="356" viewBox="0 0 664 356" role="img" aria-labelledby="title desc">
+  <title id="title">Hybrid retrieval architecture illustration</title><desc id="desc">Dense retrieval and BM25 combine through reciprocal rank fusion. Reranking selects context for a grounded reply shared across website and WhatsApp.</desc>
+  <rect width="664" height="356" fill="#182b2d"/>
+  <text x="30" y="39" font-family="Consolas, monospace" font-size="11" letter-spacing="1" fill="#bed0c8">RETRIEVAL ARCHITECTURE / ILLUSTRATION</text>
+  <g fill="#294347" stroke="#66878a"><rect x="30" y="111" width="130" height="45" rx="4"/><rect x="30" y="201" width="130" height="45" rx="4"/><rect x="220" y="156" width="83" height="45" rx="4"/><rect x="349" y="156" width="113" height="45" rx="4"/></g>
+  <path d="M160 133h28v45h32m-60 45h28v-45m115 0h46m113 0h38m-6-5 6 5-6 5" stroke="#9cbab5" fill="none"/>
+  <rect x="505" y="156" width="129" height="45" rx="4" fill="#cee0ce"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#f4f5ef" text-anchor="middle"><text x="95" y="139">Dense search</text><text x="95" y="229">BM25</text><text x="261" y="184">RRF</text><text x="405" y="184">Rerank</text><text x="569" y="184" fill="#202925">Grounded reply</text></g>
+  <path d="M30 289h604" stroke="#456467"/>
+  <text x="30" y="324" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#bed0c8">One knowledge base. Website + WhatsApp.</text>
+</svg>

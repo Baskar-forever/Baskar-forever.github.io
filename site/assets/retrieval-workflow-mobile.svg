@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="342" height="200" viewBox="0 0 342 200" role="img" aria-labelledby="title">
+  <title id="title">Hybrid retrieval illustration: dense and keyword search, rank fusion, and reranking</title>
+  <rect width="342" height="200" fill="#182b2d"/>
+  <text x="20" y="29" font-family="Consolas, monospace" font-size="10" fill="#bed0c8">HYBRID RETRIEVAL / ILLUSTRATION</text>
+  <g fill="#294347" stroke="#66878a"><rect x="20" y="56" width="96" height="36" rx="4"/><rect x="20" y="114" width="96" height="36" rx="4"/><rect x="150" y="85" width="60" height="36" rx="4"/></g>
+  <path d="M116 74h16v29h18m-34 29h16v-29m78 0h21m-5-5 5 5-5 5" fill="none" stroke="#9cbab5"/>
+  <rect x="236" y="85" width="86" height="36" rx="4" fill="#cee0ce"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#f4f5ef"><text x="68" y="79">Dense search</text><text x="68" y="137">BM25</text><text x="180" y="108">RRF</text><text x="279" y="108" fill="#202925">Rerank</text></g>
+  <text x="20" y="181" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#bed0c8">Shared knowledge. Website + WhatsApp.</text>
+</svg>

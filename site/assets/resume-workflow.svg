@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="664" height="356" viewBox="0 0 664 356" role="img" aria-labelledby="title desc">
+  <title id="title">Resume tailoring workflow illustration</title><desc id="desc">A master resume and a job description feed an AI tailoring workflow that creates a tailored resume document.</desc>
+  <rect width="664" height="356" fill="#30352e"/>
+  <text x="30" y="39" font-family="Consolas, monospace" font-size="11" letter-spacing="1" fill="#cbd1bd">DOCUMENT WORKFLOW / ILLUSTRATION</text>
+  <rect x="49" y="83" width="149" height="174" rx="4" fill="#dedfd3"/>
+  <rect x="466" y="83" width="149" height="174" rx="4" fill="#f4f1df"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#202925"><text x="64" y="112">MASTER RESUME</text><text x="481" y="112">TAILORED RESUME</text></g>
+  <path d="M64 135h119m-119 16h100m-100 16h119m-119 28h119m-119 16h100m-100 16h86" stroke="#8a9789" stroke-width="3"/>
+  <path d="M481 135h119m-119 16h100m-100 16h119m-119 28h119m-119 16h100m-100 16h86" stroke="#a2ac8e" stroke-width="3"/>
+  <path d="M481 151h100m-100 60h100" stroke="#377e65" stroke-width="3"/>
+  <rect x="264" y="139" width="136" height="65" rx="5" fill="#4b5344" stroke="#819071"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#f4f5ef" text-anchor="middle"><text x="332" y="165">Job description</text><text x="332" y="186">+ AI tailoring</text></g>
+  <path d="M212 171h36m-6-5 6 5-6 5m172 0h32m-6-5 6 5-6 5" stroke="#afbea5" fill="none"/>
+  <path d="M30 289h604" stroke="#5c6b51"/>
+  <text x="30" y="324" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#cbd1bd">Structured extraction. Targeted content. Printable output.</text>
+</svg>
