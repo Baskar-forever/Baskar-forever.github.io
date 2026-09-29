@@ -1,6 +1,28 @@
 # Baskar R Portfolio
 
-A static, hiring-focused Applied AI engineering portfolio. Built from the approved light editorial mockups with dark project illustrations, using HTML, CSS, and a small amount of JavaScript.
+A static, hiring-focused Applied AI engineering portfolio. The selected Sage design now covers the homepage, all three project case studies, and the printable resume, using HTML, CSS, and a small amount of JavaScript.
+
+The homepage uses an orbital 3D illustration for knowledge, reasoning, and actions rather than a voice-commerce-only graphic. Each case study has its own relevant 3D illustration: phone and business tools, hybrid retrieval, or document processing. Main copy and links stay flat. Pointer motion is disabled on touch devices, at narrow widths, and with reduced-motion preferences; there is no WebGL dependency or idle animation loop.
+
+The homepage's orbital hero is an interactive workflow explorer. Choose document Q&A, voice sales, or resume tailoring, then press Play or select a node to inspect the three steps. Playback can be paused, replayed, or reset, and each use case links to its real case study. The content is a predefined educational walkthrough, not a live AI request; it uses no API, microphone, or uploaded data. Motion respects reduced-motion settings, and a static illustration remains available without JavaScript. Its code is isolated in `site/assets/workflow.js`.
+
+## Compare New Designs
+
+Open `/versions.html` locally for the new, simpler design collection. Each uses 3D only in a meaningful hero illustration, with stable text and more compact layouts:
+
+- **Paper:** `site/versions/paper.html`, warm white and terracotta, readable serif headings, a layered document stack, and compact project rows.
+- **Flow:** `site/versions/flow.html`, white and blue, a raised connected workflow, and scannable project summaries.
+- **Sage (selected):** `site/index.html`, soft green surfaces, a personal introduction, and 3D AI building blocks. The previous `/versions/sage.html` preview link redirects to the selected homepage.
+
+The previous explorations remain available separately at `/earlier-designs.html`:
+
+- **01 / Editorial:** `site/versions/editorial.html`, warm ivory and teal with layered 3D cards.
+- **02 / Signal:** `site/versions/signal.html`, graphite and cyan with an exploded hardware illustration and narrative project rows.
+- **03 / Studio:** `site/versions/studio.html`, ivory and cobalt with expressive serif typography, a sculptural cube, and asymmetrical project panels.
+
+All alternatives share the selected Sage case-study and resume pages. Alternatives and the comparison page are marked `noindex,follow`; the main portfolio remains indexable. The Sage redesign is local until explicitly committed and pushed. All fonts use local system fallbacks without external requests.
+
+The collection uses real browser screenshots. To refresh them after a design edit, keep `npm run dev` running, then run `npm run preview:designs` in another terminal. This requires the test dependencies and a Playwright browser (or `PLAYWRIGHT_CHANNEL=msedge` for installed Edge).
 
 ## Preview Locally
 
@@ -24,7 +46,10 @@ You can also open `site/index.html` directly in a browser. The email-copy button
 | `site/projects/resumeai.html` | Document processing case study |
 | `site/resume.html` | Printable resume based on the provided CV text |
 | `site/404.html` | Missing-page recovery |
-| `site/assets/styles.css` | Responsive styles and design tokens |
+| `site/assets/sage.css` | Shared Sage styles, design tokens, and homepage illustration |
+| `site/assets/sage-projects.css` | Case-study layouts and project-specific 3D illustrations |
+| `site/assets/sage-resume.css` | Resume screen layout; print rules remain in the resume HTML |
+| `site/assets/styles.css` | Earlier Editorial preview styles |
 | `site/assets/main.js` | Mobile navigation, copy email, and print action |
 | `design/` | Approved SVG and PNG mockups, not deployed |
 
@@ -46,7 +71,7 @@ For automatic deployments from GitHub:
 | Setting | Value |
 | --- | --- |
 | Framework preset | None |
-| Production branch | Your published branch; this workspace currently uses `master` |
+| Production branch | Your published branch; this workspace currently uses `main` |
 | Root directory | `site` |
 | Build command | Leave empty |
 | Build output directory | `.` |
@@ -99,4 +124,4 @@ The suite checks desktop and emulated mobile pages, local links and fragments, l
 
 ## Editing
 
-Edit text directly in the HTML. Shared color tokens are at the top of `site/assets/styles.css`. The site deliberately avoids a framework and build system: editing and publishing the static files is enough. Do not put secrets or private client data in any public asset or HTML file.
+Edit text directly in the HTML. Shared Sage color tokens are at the top of `site/assets/sage.css`. The site deliberately avoids a framework and build system: editing and publishing the static files is enough. Do not put secrets or private client data in any public asset or HTML file.

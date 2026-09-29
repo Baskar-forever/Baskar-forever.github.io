@@ -8,23 +8,25 @@
   <meta property="og:title" content="ResumeAI | Baskar R">
   <meta property="og:description" content="Separating resume content from presentation with structured JSON, HTML and CSS templates, and browser-based PDF generation.">
   <meta property="og:type" content="website">
-  <meta name="theme-color" content="#f6f5ef">
+  <meta name="theme-color" content="#eef3eb">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../assets/styles.css">
+  <link rel="stylesheet" href="../assets/sage.css">
+  <link rel="stylesheet" href="../assets/sage-projects.css">
   <script src="../assets/main.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header shell">
-    <a class="brand" href="../index.html" aria-label="Baskar R home"><span class="brand-mark" aria-hidden="true">b.</span>Baskar R</a>
+    <a class="brand" href="../index.html" aria-label="Baskar R home"><span class="brand-seed" aria-hidden="true">b.</span>Baskar R</a>
     <nav aria-label="Main navigation">
       <a href="../index.html#work">All work</a>
       <a href="../resume.html">Resume</a>
       <a href="mailto:baskargceo@gmail.com">Contact</a>
     </nav>
   </header>
-  <main id="main" class="case-page shell">
+  <main id="main" class="case-page shell" tabindex="-1">
     <a class="back-link" href="../index.html#work">Back to all work</a>
+    <div class="case-opening">
     <header class="case-hero">
       <p class="eyebrow">Document automation / Applied AI engineering</p>
       <h1>ResumeAI</h1>
@@ -35,10 +37,17 @@
         <div><dt>Core stack</dt><dd>GPT-4 Vision, Jinja2, Playwright</dd></div>
       </dl>
     </header>
-    <figure class="case-preview document-preview">
-      <picture><source media="(max-width: 600px)" srcset="../assets/resume-workflow-mobile.svg" width="342" height="200"><img src="../assets/resume-workflow.svg" width="664" height="356" alt="Document workflow illustration: a master resume passes through AI tailoring to produce a tailored resume."></picture>
-      <figcaption>Architecture/workflow illustration, not a live product screenshot.</figcaption>
+    <figure class="case-preview">
+      <div class="case-scene case-documents" data-depth="3" aria-hidden="true">
+        <div class="depth-object">
+          <div class="case-sheet case-source-sheet"><span class="case-sheet-heading"></span><div class="case-source-columns"><i></i><i></i></div></div>
+          <div class="case-sheet case-json-sheet"><span class="case-json-bracket"></span><div class="case-json-fields"><i></i><i></i><i></i><i></i></div></div>
+          <div class="case-sheet case-pdf-sheet"><span class="case-sheet-heading"></span><div class="case-pdf-lines"><i></i><i></i><i></i></div></div>
+        </div>
+      </div>
+      <figcaption><strong>Content and layout, kept separate</strong>Resume documents &rarr; structured JSON &rarr; HTML/CSS templates &rarr; rendered PDF.<span class="case-art-note">Conceptual workflow illustration, not a live product screenshot.</span></figcaption>
     </figure>
+    </div>
     <div class="case-content">
       <article aria-label="ResumeAI case study">
         <section>
@@ -66,6 +75,8 @@
         </section>
       </article>
       <aside class="case-aside" aria-label="Project links and skills">
+        <h2>At a glance</h2>
+        <p>Document extraction and layout interpretation connected through structured content to browser-based PDF rendering.</p>
         <h2>Project link</h2>
         <p><a href="https://resumeai.works/">ResumeAI website</a></p>
         <h2>Skills in focus</h2>
@@ -78,14 +89,15 @@
       </aside>
     </div>
     <nav class="case-next" aria-label="Next project">
+      <a href="../index.html#work">Back to all work</a>
       <a href="sareebot.html">Next project: SareeBot AI</a>
     </nav>
   </main>
   <footer class="site-footer shell">
-    <p>Baskar R / Applied AI Engineer</p>
-    <a href="https://github.com/Baskar-forever">GitHub</a>
-    <a href="https://www.linkedin.com/in/baskar-g-ceo/">LinkedIn</a>
-    <a href="mailto:baskargceo@gmail.com">Email</a>
+    <div class="footer-main">
+      <p>Baskar R <span>/ Applied AI Engineer</span></p>
+      <div class="footer-links"><a href="https://github.com/Baskar-forever">GitHub</a><a href="https://www.linkedin.com/in/baskar-g-ceo/">LinkedIn</a><a href="../resume.html">Resume</a><a href="mailto:baskargceo@gmail.com">Email</a></div>
+    </div>
   </footer>
 </body>
 </html>

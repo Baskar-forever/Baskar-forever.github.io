@@ -53,3 +53,35 @@ if (printButton) {
   printButton.hidden = false;
   printButton.addEventListener('click', () => window.print());
 }
+
+const depthEnabled = window.matchMedia('(min-width: 801px) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)');
+document.querySelectorAll('[data-depth]').forEach((scene) => {
+  let frame = 0;
+  let x = 0;
+  let y = 0;
+  const strength = Number(scene.dataset.depth);
+  const reset = () => {
+    cancelAnimationFrame(frame);
+    frame = 0;
+    scene.style.removeProperty('--tilt-x');
+    scene.style.removeProperty('--tilt-y');
+  };
+  scene.addEventListener('pointermove', (event) => {
+    if (!depthEnabled.matches || event.pointerType !== 'mouse' || scene.matches(':focus-within')) return;
+    const bounds = scene.getBoundingClientRect();
+    x = Math.max(-1, Math.min(1, (event.clientX - bounds.left) / bounds.width * 2 - 1));
+    y = Math.max(-1, Math.min(1, (event.clientY - bounds.top) / bounds.height * 2 - 1));
+    // Update only on pointer input, at most once per frame; no idle animation loop.
+    if (!frame) frame = requestAnimationFrame(() => {
+      scene.style.setProperty('--tilt-x', `${(-y * strength).toFixed(2)}deg`);
+      scene.style.setProperty('--tilt-y', `${(x * strength).toFixed(2)}deg`);
+      frame = 0;
+    });
+  });
+  scene.addEventListener('pointerleave', reset);
+  scene.addEventListener('pointercancel', reset);
+  scene.addEventListener('focusin', reset);
+  depthEnabled.addEventListener('change', reset);
+  window.addEventListener('blur', reset);
+  window.addEventListener('scroll', reset, { passive: true });
+});

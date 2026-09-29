@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "node scripts/serve.mjs",
     "test": "playwright test",
-    "test:ui": "playwright test --ui"
+    "test:ui": "playwright test --ui",
+    "preview:designs": "node scripts/capture-designs.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.13.0",
